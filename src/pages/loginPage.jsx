@@ -14,7 +14,7 @@ export default function LoginPage() {
   };
 
   if (accessGranted) {
-    window.location.href('/home');
+    window.location.href = '/home';
   }
 
   return (
