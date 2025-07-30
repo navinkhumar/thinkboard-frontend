@@ -1,7 +1,7 @@
 // ProtectedPage.jsx
 import { useState } from "react";
 
-export default function ProtectedPage() {
+export default function LoginPage() {
   const [password, setPassword] = useState("");
   const [accessGranted, setAccessGranted] = useState(false);
 
