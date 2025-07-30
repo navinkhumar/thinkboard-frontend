@@ -14,7 +14,7 @@ export default function ProtectedPage() {
   };
 
   if (accessGranted) {
-    return <YourApp />; 
+    location.href('/home');
   }
 
   return (
