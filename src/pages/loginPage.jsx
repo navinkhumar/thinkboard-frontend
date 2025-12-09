@@ -7,7 +7,7 @@ export default function LoginPage() {
   const navigate = useNavigate();
 
   const handleLogin = () => {
-    if (password === "Navin@2005") {
+    if (password === "Midun@2003") {
       localStorage.setItem("isLoggedIn", "true");
       navigate("/home");
     } else {
